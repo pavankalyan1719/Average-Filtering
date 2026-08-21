@@ -26,4 +26,4 @@ The main objectives of this project are:
 An average filter is a low-pass filter used for image smoothing.
 
 ##5.Input Image
-input_img.jpg
+[![Input Image](input_img.jpg)](input_img.jpg)
