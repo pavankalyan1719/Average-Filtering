@@ -45,7 +45,7 @@ Apply 2D Convolution
 Compare the Results
 OpenCV's filter2D() function is used to perform the convolution operation.
 
-## 7. Results
+## 7.Results
 Original Grayscale Image
 [![Input Image](input_img.jpg)](input_img.jpg)
 
