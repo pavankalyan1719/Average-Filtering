@@ -57,3 +57,11 @@ The 5×5 filter produces more smoothing than the 3×3 filter. Some fine details 
 
 7×7 Average Filter
 The 7×7 filter produces the strongest smoothing among the three filters. More details and edges become blurred.
+
+## 8.Comparison
+Kernel Size	     Smoothing	         Image Details
+3×3	                  Low	         More details preserved
+5×5	                 Medium	         Some details are reduced
+7×7	                  High	         More details are blurred
+
+As the kernel size increases, the smoothing effect also increases.
