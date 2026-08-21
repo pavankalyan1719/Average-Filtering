@@ -27,3 +27,22 @@ An average filter is a low-pass filter used for image smoothing.
 
 ## 5.Input Image
 [![Input Image](input_img.jpg)](input_img.jpg)
+
+## 6.Method
+The following steps are performed:
+Input Image
+     ↓
+Convert to Grayscale
+     ↓
+Create 3×3 Kernel
+     ↓
+Create 5×5 Kernel
+     ↓
+Create 7×7 Kernel
+     ↓
+Apply 2D Convolution
+     ↓
+Compare the Results
+OpenCV's filter2D() function is used to perform the convolution operation.
+
+
