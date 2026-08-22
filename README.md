@@ -51,17 +51,12 @@ Original Grayscale Image
 
 3×3 Average Filter
 The 3×3 filter provides a small amount of smoothing while preserving most of the image details.
+![3×3 Average Filter](results/blur_3x3.jpg)
 
 5×5 Average Filter
 The 5×5 filter produces more smoothing than the 3×3 filter. Some fine details become less visible.
+![5×5 Average Filter](results/blur_5x5.jpg)
 
 7×7 Average Filter
 The 7×7 filter produces the strongest smoothing among the three filters. More details and edges become blurred.
-
-## 8.Comparison
-Kernel Size	     Smoothing	         Image Details
-3×3	                  Low	         More details preserved
-5×5	                 Medium	         Some details are reduced
-7×7	                  High	         More details are blurred
-
-As the kernel size increases, the smoothing effect also increases.
+![7×7 Average Filter](results/blur_7x7.jpg)
