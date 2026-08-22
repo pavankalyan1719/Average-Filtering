@@ -3,31 +3,31 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 def show_comparison(original, blur3, blur5, blur7):
-    plt.figure(figsize=(12, 10))
+   
+   plt.figure(figsize=(12, 10))
 
     plt.subplot(2, 2, 1)
-    plt.imshow(original, cmap='gray')
-    plt.title("Original Grayscale Image")
+    plt.imshow(img, cmap='gray')
+    plt.title('Original Grayscale Image')
     plt.axis('off')
-
+    
     plt.subplot(2, 2, 2)
-    plt.imshow(blur3, cmap='gray')
-    plt.title("Average Filter (3x3)")
+    plt.imshow(blur_3x3, cmap='gray')
+    plt.title('Average Filter (3×3)')
     plt.axis('off')
-
+    
     plt.subplot(2, 2, 3)
-    plt.imshow(blur5, cmap='gray')
-    plt.title("Average Filter (5x5)")
+    plt.imshow(blur_5x5, cmap='gray')
+    plt.title('Average Filter (5×5)')
     plt.axis('off')
-
+    
     plt.subplot(2, 2, 4)
-    plt.imshow(blur7, cmap='gray')
-    plt.title("Average Filter (7x7)")
+    plt.imshow(blur_7x7, cmap='gray')
+    plt.title('Average Filter (7×7)')
     plt.axis('off')
-
+    
     plt.tight_layout()
     plt.show()
-
 img = cv2.imread('input_img.jpg', 0)
 
 if img is None:
