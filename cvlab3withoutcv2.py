@@ -24,23 +24,23 @@ else:
 
     plt.subplot(2, 2, 1)
     plt.imshow(img, cmap='gray')
-    plt.title('Original GrayScale Image')
+    plt.title('Original Grayscale Image')
     plt.axis('off')
-
+    
     plt.subplot(2, 2, 2)
     plt.imshow(blur_3x3, cmap='gray')
-    plt.title('Average Filter (3x3)')
+    plt.title('Average Filter (3×3)')
     plt.axis('off')
-
+    
     plt.subplot(2, 2, 3)
     plt.imshow(blur_5x5, cmap='gray')
-    plt.title('Average Filter (5x5)')
+    plt.title('Average Filter (5×5)')
     plt.axis('off')
-
+    
     plt.subplot(2, 2, 4)
     plt.imshow(blur_7x7, cmap='gray')
-    plt.title('Average Filter (7x7)')
+    plt.title('Average Filter (7×7)')
     plt.axis('off')
-
+    
     plt.tight_layout()
     plt.show()
