@@ -45,18 +45,26 @@ Apply 2D Convolution
 Compare the Results
 OpenCV's filter2D() function is used to perform the convolution operation.
 
-## 7.Results
-Original Grayscale Image
-[![Input Image](input_img.jpg)](input_img.jpg)
+## 7. Results
 
-3×3 Average Filter
+### Original Grayscale Image
+
+![Original Grayscale Image](./input_img.jpg)
+
+### 3×3 Average Filter
+
 The 3×3 filter provides a small amount of smoothing while preserving most of the image details.
+
 ![3×3 Average Filter](./blur_3x3.jpg)
 
-5×5 Average Filter
+### 5×5 Average Filter
+
 The 5×5 filter produces more smoothing than the 3×3 filter. Some fine details become less visible.
+
 ![5×5 Average Filter](./blur_5x5.jpg)
 
-7×7 Average Filter
-The 7×7 filter produces the strongest smoothing among the three filters.
+### 7×7 Average Filter
+
+The 7×7 filter produces the strongest smoothing among the three filters. More details and edges become blurred.
+
 ![7×7 Average Filter](./blur_7x7.jpg)
